@@ -1,0 +1,204 @@
+body {
+    font-family: "black";
+}
+
+
+#title {
+    background-color:#FFD700;
+    color:#000; 
+    
+}
+
+.container-fluid {
+         font-size: 1.5rem;
+         padding: 3% 15% 7%;     
+}
+
+
+h1 {
+    font-family: "monserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #000;
+}
+
+h2 {
+    font-family: "black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 2.2rem;
+    
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+
+/* navigation bar*/
+
+.navbar-brand {
+    font-size: 3rem;
+    color: #000 !important;
+  
+}
+
+.navbar {
+     padding: 0 0 4.5rem;
+}
+
+.navigation-brand {
+    font-family: cursive;
+    font-size: 4.5rem;
+    font-weight: bold;  
+}
+
+.nav-item {
+    padding: 0 18px;
+     
+    
+}
+
+.nav-link {
+    font-size: 1.8rem;
+    font-family: "light";
+    color: #000 !important;
+}
+
+/* buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(42deg);
+    position: absolute;
+    right: 30%;
+    
+}
+
+/* feature section*/
+
+#features {
+    padding: 7% 15%;
+    font-size: 1.2rem; 
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+/* testimoials*/
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFD700;
+    color: #000;
+}
+
+.testimonial-image {
+    width: 12%;
+    border-radius: 100%;
+    margin 20px;
+    
+}
+
+.carousel-item {
+    padding: 7% 15%; 
+}
+
+/* press*/
+
+#press {
+    background-color:  #FFD700;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.text-box {
+    font-size: 1.5rem;
+} 
+
+/* pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center; 
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA section*/
+
+#cta {
+       background-color: #FFD700;
+       color: #000;
+       padding: 7% 15%;
+       text-align: center;
+}
+
+.cta-heading {
+    font-family: "black";
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+/* footer section*/
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    font-size: 2rem;
+}
+
+
+.text-pool {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 1028px) {
+   #title{
+      text-align: center;
+     
+}
+    .title-image {
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+
+.fa {
+    padding-right: 5px;
+}
+
+
+.x {
+    color: #FFD700;
+}
+
+
+
+
